@@ -1,0 +1,22 @@
+Date Completed: May 2011
+Language: C++
+Development Environment: Qt Creator
+Important features: Graphical User Interface (GUI);
+                    self-balancing binary (AVL) tree & heap used vectors 
+                        (instead of nodes and pointers) 
+                    
+Processes a text file and displays the following information:
+  - 10 most frequently used words and frequency count
+  - individual tabs labeled A to Z containing:
+      - words that started with the given letter
+      - frequency count of each word
+      - location of each occurance of the word (paragraph and sentence number)
+  - number of paragraphs
+  - total sentences
+  - total syllables 
+  - reading level
+  - time it took to process the document
+
+The novel "War and Peace" was used to test the storage and retrieval speed 
+of the heap and AVL tree.
+
