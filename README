@@ -2,7 +2,7 @@ Date Completed: May 2011
 Language: C++
 Development Environment: Qt Creator
 Important features: Graphical User Interface (GUI);
-                    self-balancing binary (AVL) tree & heap used vectors 
+                    implements self-balancing binary (AVL) tree & heap with vectors 
                         (instead of nodes and pointers) 
                     
 Processes a text file and displays the following information:
