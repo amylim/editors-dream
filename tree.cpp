@@ -526,18 +526,12 @@ bool Tree::hasSibling(int i)
 
 bool Tree::isRightChild(int i)
 {
-    if(i != 0 && !(i%2))
-        return true;
-    else
-        return false;
+    return (i != 0 && !(i%2));
 }
 
 bool Tree::isLeftChild(int i)
 {
-    if(i%2)
-        return true;
-    else
-        return false;
+    return (i%2);
 }
 
 int Tree::height(int i)
